@@ -28,9 +28,16 @@ fundrawtransaction
 signrawtransation
 sendrawtransaction
 
-I have a general ledger_query function with somewhat odd parameters (it requires may commands to be surrounded with '\"').
+I have a general ledger_query function with somewhat odd parameters (it requires may commands to be surrounded with an escaped double-quote).
 
-<pre>
+<pre> 
+
+ his is the general format of a bitcom-b message. Part two is always the bitcoin address:
+
+19HxigV4QyBv3tHpQVcUEQyq1pzZVdoAut
+
+Part three can be massively large and parts 4-6 describe the file's type and name.
+
 
 (
     [0] => 0
