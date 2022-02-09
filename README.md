@@ -15,10 +15,9 @@ I will try to get this into a docker image so that it is easier to test out.
 
 How to use:
 
-From the index.php page, you should be able to upload a file from your computer. It will load it into staging and send it on its way with no further questions:
+From the index.php page, you should be able to upload a file from your computer. It will load it into staging and send it on its way with no further questions. There is also a test file ready to go in the staging directory which you can call directly with the create.php command. You will likely need to make some tweaks. For example, I hard-coded my addresses into the code. If you get far enough to deal with that, then it shouldn't be an issue for you. You can also tweak the php and call create.php from the command line for larger files.
 
-https://github.com/johnrigler/bsv_write_bitcom/blob/main/html/staging/smiley.png
-smiley.png-rw-r--r-- 1 www-data www-data 1768 Feb 8 23:59 ../staging/smiley.png
+I accept pull requests.
 
 Array
 (
