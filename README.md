@@ -19,7 +19,8 @@ From the index.php page, you should be able to upload a file from your computer.
 
 I accept pull requests.
 
-Array
+<pre>
+
 (
     [0] => 0
     [1] => OP_RETURN
@@ -29,6 +30,9 @@ Array
     [5] => 62696e617279
     [6] => 736d696c65792e706e67
 )
+
+</pre>
+
 stdClass Object
 (
     [result] => 8b3fcd90a484d48a05417c4e2d56bbaa6bc76075122bc49f18a643a332979756
