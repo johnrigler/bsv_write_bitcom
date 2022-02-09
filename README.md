@@ -17,7 +17,7 @@ How to use:
 
 From the index.php page, you should be able to upload a file from your computer. It will load it into staging and send it on its way with no further questions:
 
-https://github.com/johnrigler/bsv_write_bitcom/blob/main/staging/smiley.png
+https://github.com/johnrigler/bsv_write_bitcom/blob/main/html/staging/smiley.png
 smiley.png-rw-r--r-- 1 www-data www-data 1768 Feb 8 23:59 ../staging/smiley.png
 
 Array
