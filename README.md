@@ -19,6 +19,17 @@ From the index.php page, you should be able to upload a file from your computer.
 
 I accept pull requests.
 
+<b>Why is this necessary?</b>
+
+This bit of code falls outside of the normal javascript stuff that is usually used for crypto transactions. The last time I checked the BSV forums, there wasn't an easy way to load data into the bitcom-b format. What this code does is walk through the steps:
+
+createrawtransaction
+fundrawtransaction
+signrawtransation
+sendrawtransaction
+
+I have a general ledger_query function with somewhat odd parameters (it requires may commands to be surrounded with '\"').
+
 <pre>
 
 (
